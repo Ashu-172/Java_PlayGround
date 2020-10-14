@@ -1,0 +1,11 @@
+package com.mishra.helloworld.sender;
+
+import com.rabbitmq.client.ConnectionFactory;
+public class Sender {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

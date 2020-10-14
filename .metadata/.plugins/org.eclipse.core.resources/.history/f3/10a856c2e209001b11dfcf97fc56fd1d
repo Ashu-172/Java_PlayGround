@@ -1,0 +1,24 @@
+package com.mishra.subscriber;
+
+import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.Connection;
+import com.rabbitmq.client.ConnectionFactory;
+
+public class Subscriber {
+	
+	private static final String MQ_EXCHANGE_NAME	= "logs";
+	private static final String MQ_HOST_NAME 		= "localhost"; 
+	
+	public static void main(String[] args) {
+		ConnectionFactory factory = new ConnectionFactory();
+		factory.setHost(MQ_HOST_NAME);
+		
+		try{
+			Connection conn = factory.newConnection();
+			Channel channel = conn.createChannel();
+			
+		}
+
+	}
+
+}

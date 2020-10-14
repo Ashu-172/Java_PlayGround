@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+H:\Java Playground\.metadata\.plugins\org.eclipse.jdt.core
+1292936378.index
+2395564954.index
+766323135.index
+1929269662.index

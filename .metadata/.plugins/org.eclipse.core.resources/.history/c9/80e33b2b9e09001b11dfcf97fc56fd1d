@@ -1,0 +1,15 @@
+package com.mishra.sender;
+
+import com.rabbitmq.client.ConnectionFactory;
+
+public class WorkQueueSender {
+	private final static String HW_QNAME  		= "message";
+	private final static String HW_HOST_NAME 	= "localhost";
+	
+	public static void main(String[] args) {
+		ConnectionFactory factory = new ConnectionFactory();
+		
+
+	}
+
+}
